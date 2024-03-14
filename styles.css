@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .section {
+    padding: 50px 0;
+  }
+  /* .container{
+    background-color: #5d6369;
+  } */
+  .section-header {
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #f18e37;
+  }
+  .section-content {
+    margin-bottom: 30px;
+  }
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .project-card {
+    margin-bottom: 30px;
+  }
+  /* Navbar */
+.navbar {
+    background-color: #24282c;
+
+  }
+  
+  .navbar-brand {
+    color: #dc7820;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .navbar-brand:hover {
+    color: #e7e2de;
+  }
+  .nav-item{
+    font-size:20px;
+    font-weight: 800;
+    
+  }
+  .nav-item .nav-link{
+    color:rgb(251, 248, 248);
+  }
+  .nav-link:hover {
+    color:  #dc7820;
+    
+  }
+  /* Welcome Section */
+  #welcome {
+    background-color: #24282c;
+    padding: 100px 0;
+    color:white;
+  }
+  
+  #welcome h1 {
+    font-size: 3em;
+    font-weight: 600;
+  }
+  
+  #welcome span {
+    color:#dc7820;;
+  }
+  #welcome h4 {
+    font-size: 30px;
+    font-weight: 400;
+   
+   
+  }
+  /* About Section */
+  #about {
+    padding: 100px 0;
+    border:4px;
+    background-color: #24282c;
+    color :white;
+  }
+  #about .about{
+    padding:20px;
+    background: #343a40;
+    border-radius: 16px;
+    font-size:20px;
+    /* text-align: justify; */
+  }
+  
+  /* Education Section */
+  #education {
+    padding: 100px 0;
+    background-color: #24282c;
+    color :white;
+    /* padding: 0px 0px; */
+  }
+  .education-card{
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  } 
+  /* .col-gap-md-4 .col-md-4{
+    padding-right:15px;
+    padding-left:15px;
+  } */
+  /* Skills Section */
+  #skills {
+    background-color: #24282c;
+    color :white;
+    padding: 100px 0;
+  }
+  
+  .skills h4 {
+    color: white;
+  }
+  .skills li{
+    color: rgb(249, 242, 242);
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 100px 0;
+    background-color: #24282c;
+    color :rgb(43, 38, 38);
+  }
+  
+  .project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    color: #343a40;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #24282c;
+    color :white;
+    padding: 100px 0;
+
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Link Styling */
+  a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    #welcome h1 {
+      font-size: 2.5em;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #welcome h1 {
+      font-size: 2em;
+    }
+  }
+  
