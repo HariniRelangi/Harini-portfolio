@@ -100,10 +100,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
   } 
-  /* .col-gap-md-4 .col-md-4{
-    padding-right:15px;
-    padding-left:15px;
-  } */
   /* Skills Section */
   #skills {
     background-color: #24282c;
@@ -122,18 +118,18 @@ body {
   #projects {
     padding: 100px 0;
     background-color: #24282c;
-    color :rgb(43, 38, 38);
+    color :white;
   }
   
   .project-card {
-    background-color: #fff;
+    background-color: #343a40;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .project-card h3 {
-    color: #343a40;
+    color:white;
   }
   
   /* Contact Section */
